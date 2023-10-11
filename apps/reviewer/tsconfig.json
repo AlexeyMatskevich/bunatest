@@ -11,6 +11,9 @@
     "baseUrl": "./",
     "paths": {
       "~/*": ["./src/*"]
-    }
+    },
+    "types": [
+      "bun-types" // add Bun global
+    ]
   }
 }
