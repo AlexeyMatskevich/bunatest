@@ -1,0 +1,11 @@
+{
+  "name": "next_examiner_solid",
+  "scripts": {
+    "reviewer:dev": "cd apps/reviewer && bun run dev",
+    "reviewer:build": "cd apps/reviewer && bun run build",
+    "reviewer:start": "cd apps/reviewer && bun run start"
+  },
+  "type": "module",
+  "workspaces": ["apps/*", "libs/*"],
+  "private": true
+}
